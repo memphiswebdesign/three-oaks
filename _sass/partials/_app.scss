@@ -28,7 +28,7 @@ header {
   display: grid;
   background-color: $brand-color;
   padding: 2rem;
-  @media screen and (min-width: $screen-sm-min) {
+  @media screen and (min-width: $screen-sm) {
     grid-template-columns: 1fr auto;
     grid-column-gap: 1rem;
   }
@@ -38,7 +38,7 @@ header {
 header > h1 {
   display: inline-block;
   padding-bottom: 1rem;
-  @media screen and (min-width: $screen-sm-min) {
+  @media screen and (min-width: $screen-sm) {
     padding-bottom: 0;
   }
   a,
@@ -46,7 +46,7 @@ header > h1 {
     text-decoration: none;
     border: 0;
     color: white;
-    @media screen and (min-width: $screen-sm-min) {
+    @media screen and (min-width: $screen-sm) {
       padding: 1rem;
     }
   }
@@ -57,7 +57,7 @@ header > h1 {
 
 // main menu, is a grid item
 header > nav {
-  @media screen and (min-width: $screen-sm-min) {
+  @media screen and (min-width: $screen-sm) {
     float: right;
   }
   ul {
@@ -66,7 +66,7 @@ header > nav {
     li {
       margin-right: 2rem;
       display: inline-block;
-      @media screen and (min-width: $screen-sm-min) {
+      @media screen and (min-width: $screen-sm) {
         margin-right: 0;
       }
       a,
@@ -74,7 +74,7 @@ header > nav {
         color: white;
         text-decoration: none;
         border: 0;
-        @media screen and (min-width: $screen-sm-min) {
+        @media screen and (min-width: $screen-sm) {
           padding: 1rem;
         }
         &[data-current="current page"] {
@@ -98,7 +98,7 @@ main {
   display: grid;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  @media screen and (min-width: $screen-md-min) {
+  @media screen and (min-width: $screen-md) {
     align-content: start;
   }
 }
@@ -143,7 +143,7 @@ html[data-current="contact"] main > form {
   display: grid;
   label {
     display: none;
-  }
+  } 
   input,
   textarea {
     width: 100%;

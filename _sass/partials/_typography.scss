@@ -4,10 +4,10 @@
 
 html {
   font-size: $base-font-size;
-  @media screen and (min-width: $screen-xs-min) {
+  @media screen and (min-width: $screen-xs) {
     font-size: $base-font-size * 1.2;
   }
-  @media screen and (min-width: $screen-md-min) {
+  @media screen and (min-width: $screen-md) {
     font-size: $base-font-size * 1.4;
   }
 }
@@ -41,7 +41,7 @@ p.intro {
   font-size: 2.4rem;
   color: lighten($text-color, 40%);
   padding-bottom: 4rem;
-  @media screen and (min-width: $screen-sm-min) {
+  @media screen and (min-width: $screen-sm) {
     padding-bottom: 4rem;
   }
 }
@@ -91,7 +91,7 @@ a:active {
 header > h1 {
   line-height: $base-line-height;
   font-weight: $base-font-weight;
-  @media screen and (min-width: $screen-sm-min) {
+  @media screen and (min-width: $screen-sm) {
     text-align: left;
   }
 }

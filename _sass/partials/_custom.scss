@@ -1,6 +1,7 @@
 #home-hero {
 	position: relative;
 	overflow: hidden;
+	margin-bottom: 2rem;
 
 	.slick-slider {
 		padding: 2rem;
@@ -19,16 +20,27 @@
 			z-index: 2;
 		}
 	}
+	.slick-slide {
+		height: 80vh;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
 
 	.hero-logo {
 		position: absolute;
 		display: inline-block;
-		width: 420px;
+		width: 62%;
+		max-width: 430px;
 		min-height: 100px;
 		top: 50%;
 		left: 50%;
 		transform: translate(-50%, -50%);
 		z-index: 10;
+
+		@media (min-width: $screen-xs) {
+			width: 50%;
+		}
 	}
 }
 
