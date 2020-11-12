@@ -1,0 +1,41 @@
+#home-hero {
+	position: relative;
+	overflow: hidden;
+
+	.slick-slider {
+		padding: 2rem;
+	}
+	.slick-list {
+		background-color: #eee;
+
+		&:before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			background-color: rgba(32,32,32,0.38);
+			z-index: 2;
+		}
+	}
+
+	.hero-logo {
+		position: absolute;
+		display: inline-block;
+		width: 420px;
+		min-height: 100px;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		z-index: 10;
+	}
+}
+
+
+// Footer
+footer {
+	padding: 4rem 2em;
+	min-height: 20vh;
+	text-align: center;
+}

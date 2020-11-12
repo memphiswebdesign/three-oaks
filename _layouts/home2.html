@@ -1,0 +1,34 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html data-current="{{ page.section }}" lang="en">
+
+  {% include head.html %}
+
+  <body>
+
+    {% include home-hero.html %}
+
+    {% include footer.html %}
+
+  </body>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.your-class').slick({
+		dots: false,
+		arrows: false,
+		infinite: true,
+		speed: 720,
+		fade: true,
+		autoplay: true,
+		draggable: false,
+  		autoplaySpeed: 2800,
+		cssEase: 'ease-out'
+      });
+    });
+  </script>
+
+</html>
