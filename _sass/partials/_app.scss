@@ -174,7 +174,7 @@ footer {
     [full-start] minmax(1rem, 1fr)
     [main-start] minmax(0, 50rem) [main-end]
     minmax(1rem, 1fr) [full-end];
-  background-color: $grey-bg-color;
+  background-color: $grey;
   > small {
     grid-column: main;
   }

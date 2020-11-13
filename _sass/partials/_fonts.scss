@@ -7,6 +7,13 @@
        url('/fonts/oaks-serif.woff') format('woff'), 
        url('/fonts/oaks-serif.ttf')  format('truetype'); 
 }
+@font-face {
+  font-family: 'renner-book';
+  src: url('/fonts/renner-book.eot');
+  src: url('/fonts/renner-book.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/renner-book.woff') format('woff'), 
+       url('/fonts/renner-book.ttf')  format('truetype'); 
+}
 
 $serif: 'oaks-serif', TimesNewRoman, Times New Roman, Times, Baskerville, Georgia, serif; 
-$sans-serif: 'Nunito Sans', Arial ,Helvetica Neue, Helvetica, sans-serif;
+$sans-serif: 'renner-book', Arial ,Helvetica Neue, Helvetica, sans-serif;
