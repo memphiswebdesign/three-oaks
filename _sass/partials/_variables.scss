@@ -7,14 +7,15 @@ $link-hover-color: rgb(0,57,78);
 $grey-bg-color: #eee;
 $hairline-color: #f8f8f8;
 $selection-bg-color: rgba(255,255,100,0.5);
+$brand-green: #949f91;
 
 // typographic defaults
-$base-font: system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Droid Sans,Helvetica Neue;
+$base-font: 'Nunito Sans', Arial ,Helvetica Neue, Helvetica, sans-serif;
 $code-font: Courier, monospace;
 $base-font-size: 62.5%;
 $base-font-weight: 300;
 $bold-font-weight: 600;
-$base-line-height: 1.5;
+$base-line-height: 1.35;
 
 // viewport breakpoints
 $screen-xs: 480px;

@@ -47,8 +47,9 @@ p.intro {
 }
 
 h1,h2,h3,h4,h5,h6 {
-  font-weight: $bold-font-weight;
-  line-height: $base-line-height / 1.3;
+  line-height: $base-line-height;
+  font-family: $serif;
+  letter-spacing: 0.05em;
 }
 
 h2 {

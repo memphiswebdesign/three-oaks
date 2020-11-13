@@ -1,1 +1,12 @@
 // Font Styling
+
+@font-face {
+  font-family: 'oaks-serif';
+  src: url('/fonts/oaks-serif.eot');
+  src: url('/fonts/oaks-serif.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/oaks-serif.woff') format('woff'), 
+       url('/fonts/oaks-serif.ttf')  format('truetype'); 
+}
+
+$serif: 'oaks-serif', TimesNewRoman, Times New Roman, Times, Baskerville, Georgia, serif; 
+$sans-serif: 'Nunito Sans', Arial ,Helvetica Neue, Helvetica, sans-serif;
