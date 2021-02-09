@@ -29,6 +29,28 @@ h1,h2,h3,h4,h5,h6,p,figure,time {
   padding-bottom: 2rem;
 }
 
+h1,h2,h3,h4 {
+  line-height: $base-line-height;
+  font-family: $serif;
+  letter-spacing: -0.012em;
+}
+
+h5, h6 {
+  font-family: $sans-serif;
+    text-transform: uppercase;
+    color: #555855;
+}
+
+h5 {
+  font-size: 17px;
+  letter-spacing: 0.04em;
+}
+h6 {
+  font-size: 15px;
+  font-weight: bold; 
+  letter-spacing: 0.08em;
+}
+
 h1,h2,h3,h4,h5,h6,figure {
   p + &,
   figure + & {
@@ -51,11 +73,6 @@ p.intro {
   }
 }
 
-h1,h2,h3,h4,h5,h6 {
-  line-height: $base-line-height;
-  font-family: $serif;
-  letter-spacing: 0.05em;
-}
 
 h1 {
   font-size: 2.8rem;
