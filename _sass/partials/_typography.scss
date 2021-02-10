@@ -31,12 +31,11 @@ h1,h2,h3,h4,h5,h6,p,figure,time {
 
 h1,h2,h3,h4 {
   line-height: $base-line-height;
-  font-family: $serif;
   letter-spacing: -0.012em;
 }
 
 h5, h6 {
-  font-family: $sans-serif;
+  font-family: $base-font;
     text-transform: uppercase;
     color: #555855;
 }
@@ -59,7 +58,7 @@ h1,h2,h3,h4,h5,h6,figure {
 }
 
 p {
-    font-size: 1.24rem;
+    font-size: 16px;
     line-height: 1.6;
   }
 
