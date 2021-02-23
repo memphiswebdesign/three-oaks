@@ -158,6 +158,27 @@ ul.service-cards {
 	}
 }
 
+#instafeed {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: stretch;
+	justify-content: center;
+	margin-bottom: 80px;	
+
+	a {
+		width: 45%;
+		margin: 1%;
+
+		img {}
+
+		&:hover {opacity: 0.9;}
+
+		@media (min-width: $screen-xs) {width: 45%;}
+		@media (min-width: $screen-sm) {width: 31%;}
+		@media (min-width: $screen-md) {width: 23%;}
+	}
+}
+
 
 // Footer
 footer {
