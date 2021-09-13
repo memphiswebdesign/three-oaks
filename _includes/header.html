@@ -1,8 +1,20 @@
 <header>
+  <div class="init">
+    <div class="flex-apart">
+      <div class="social">
+        <a href="https://www.instagram.com/three_oaksdesign" target="_blank"><i class="icon-instagram"></i></a>
+        <a href="https://www.facebook.com/3oaksdesign" target="_blank"><i class="icon-facebook"></i></a>
+      </div>
+      <div class="contact-links">
+        <a href="http://localhost:4000/tel:9012351054" ><i class="icon-phone"></i><span>901.235.1054</span></a>
+        <a href="/contact"><i class="icon-mail"></i><span>Let's Chat</span></a>
+      </div>
+    </div>
+  </div>
 
-  <h1>
-    <a href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-  </h1>
+  <div id="logo">
+    <a href="/">{% include three-oaks-logo-clr.svg %}</a>
+  </div>
 
   <nav>
     {% include navigation.html navigation=site.data.navigation %}

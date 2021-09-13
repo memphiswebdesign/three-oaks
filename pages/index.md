@@ -4,9 +4,5 @@ title: Test
 permalink: /
 section: home
 intro_paragraph: >
-  [Jekyll Netlify Boilerplate](https://github.com/danurbanowicz/jekyll-netlify-boilerplate)
-  provides the basics to get a fast, static website deployed on Netlify.
-  Features [Netlify CMS](https://www.netlifycms.org), responsive
-  CSS Grid layout, sample
-  pages and posts, and a continuous deployment workflow.
+  Home renovation designer in the greater Memphis area. Serving commercial and residential projects for owners and investors. We create beautiful and functional spaces for clients. We offer a range of services from in person planning to remote design consultation.
 ---

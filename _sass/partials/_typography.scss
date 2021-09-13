@@ -30,6 +30,7 @@ h1,h2,h3,h4,h5,h6,p,figure,time {
 }
 
 h1,h2,h3,h4 {
+  font-weight: $lite-font-weight;
   line-height: $base-line-height;
   letter-spacing: -0.012em;
 }
