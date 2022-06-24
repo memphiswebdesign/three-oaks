@@ -92,8 +92,23 @@ textarea {
 	max-width: 100%;
 }
 
-button {
-	// @include button($link-color, $text-color-negative);
+button, .btn {
+	display: inline-block;
+	color: white;
+	background-color: $brand-green;
+	border-radius: 30px;
+	padding: 12px 20px;
+	text-align: center;
+	line-height: 1.35;
+	text-transform: uppercase;
+	letter-spacing: 0.03em;
+	font-size: 14px;
+	transition: 0.15s ease-out;
+
+	&:hover {
+		background-color: darken($brand-green, 6%);
+		color: white;
+	}
 }
 
 .ft-17 {font-size: 18px;}
