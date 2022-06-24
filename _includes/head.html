@@ -1,15 +1,19 @@
 <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8"> 
+  <title>{{ site.title }} - {{ page.title }}</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  {% if page.section == "home" %}
-    <title>{{ site.title }}</title>
-    <meta name="description" content="{{ site.description }}">
-  {% else %}
-    <title>{{ page.title }}</title>
-    {% if page.meta_description %}
-      <meta name="description" content="{{ page.meta_description }}">
-    {% endif %}
-  {% endif %}
+  <meta name="robots" content="index,follow"/>
+  <meta name="description" content="{{ site.description }}"/>
+  <meta property="og:title" content="{{ site.title }}"/>
+  <meta property="og:description" content="{{ site.description }}"/>
+  <meta property="og:url" content="https://threeoaksdesign.co/">
+  <meta property="og:type" content="website"/>
+  <meta property="og:image" content="{{ site.url }}/images/banner.png"/>
+  <meta property="og:image:alt" content="{{ site.description }}"/>
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+  <link rel="canonical" href="/"/>
 
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
@@ -34,6 +38,37 @@
 
   <!-- Slick Slider -->
   <script src="/scripts/slick.min.js"></script>
-  <script src="/scripts/instafeed.min.js"></script>
+  <!-- <script src="/scripts/instafeed.min.js"></script> -->
   <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
+
+<!-- Schema -->
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "WebSite",
+  "name" : "Three Oaks Design & Co",
+  "alternateName" : "Three oaks design and company",
+  "url" : "https://threeoaksdesign.co/"
+}
+</script>
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Organization",
+    "url": "https://threeoaksdesign.co/",
+    "logo": "{{ site.url }}/images/banner.png",
+    "contactPoint" : [
+    {   "@type" : "ContactPoint",
+        "telephone" : "+1-901-286-8874",
+        "contactType" : "Sales",
+        "contactOption" : "TollFree",
+        "areaServed" : "US",
+        "availableLanguage" : "English"
+} ],
+    "sameAs" : [
+        "https://www.facebook.com/3oaksdesign",
+        "https://www.instagram.com/three_oaksdesign/"
+    ]
+}
+</script>
